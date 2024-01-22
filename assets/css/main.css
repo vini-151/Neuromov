@@ -75,4 +75,20 @@ h5{
     align-items: center;
     margin: auto;
     margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+footer{
+    background-color: #7F4BC1;
+    margin-bottom: 0px;
+    width: 100.9%;
+}
+
+.marg2{
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.txtFooter{
+ color: #F0F0F0;;
 }
