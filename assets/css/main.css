@@ -1,7 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@800&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+    background-color: #F6F6F6;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
 header{
     background-color: #7F4BC1;
-    padding: 0%;
-    margin: 0px;
 }
 
 nav{
@@ -9,7 +16,14 @@ nav{
    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 } 
 
-h1{
+.cabFix{
+    position: fixed;
+    margin-top: -15px;
+    width: 100%;
+    z-index: 7;
+}
+
+.titulonav{
     padding-left: 10px;
     color: #F0F0F0;
 }
@@ -21,4 +35,44 @@ h5{
 
 .imgheader{
     border-radius: 13px;
+    margin-top: 10px;
+}
+
+#carousel{
+    width: 80%;
+    position:relative;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+}
+
+.corTitulos{
+    color: #35184B;
+    font-family: Roboto;
+    font-size: 43px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.marg{
+    padding-top: 176px;
+}
+
+.marg1{
+    margin-top: 40px ;
+}
+
+.card{
+    overflow: hidden;
+}
+
+.mapa{
+    position:relative;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 40px;
 }
