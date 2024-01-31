@@ -9,6 +9,7 @@ body{
 
 header{
     background-color: #7F4BC1;
+    width: 100%;
 }
 
 nav{
@@ -18,8 +19,8 @@ nav{
 
 .cabFix{
     position: fixed;
-    margin-top: -15px;
     width: 100%;
+    margin-top: -15px;
     z-index: 7;
 }
 
@@ -81,7 +82,8 @@ h5{
 footer{
     background-color: #7F4BC1;
     margin-bottom: 0px;
-    width: 100.9%;
+    width: 100%;
+    
 }
 
 .marg2{
@@ -91,4 +93,12 @@ footer{
 
 .txtFooter{
  color: #F0F0F0;;
+}
+
+.but{
+    color: #ebebeb;
+    background-color: #7F4BC1;
+    border-color: rgba(66, 42, 68, 0);
+    --bs-btn-hover-bg:#35184B;
+    
 }
