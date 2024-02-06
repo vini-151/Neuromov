@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@800&family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400..800&display=swap');
 body{
     background-color: #F6F6F6;
     font-family: 'Nunito', sans-serif;
@@ -82,8 +82,6 @@ h5{
 footer{
     background-color: #7F4BC1;
     margin-bottom: 0px;
-    width: 100%;
-    
 }
 
 .marg2{
@@ -102,3 +100,25 @@ footer{
     --bs-btn-hover-bg:#35184B;
     
 }
+
+.cred{
+    background-color: #35184B;  
+    color: #F0F0F0;
+}
+
+.marg5{
+    margin-bottom: 15px;
+}
+
+.margFix{
+    margin-right: 0%;
+    margin-bottom: 0px;
+}
+
+.baloo-da-2-cred {
+    font-family: "Baloo Da 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+
