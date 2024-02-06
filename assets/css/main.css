@@ -45,7 +45,7 @@ h5{
     justify-content: center;
     align-items: center;
     margin: auto;
-
+    padding-top: 180px;
 }
 
 .corTitulos{
@@ -122,3 +122,7 @@ footer{
     font-style: normal;
   }
 
+.card{
+    border-width: 0px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
