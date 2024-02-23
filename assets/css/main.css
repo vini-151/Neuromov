@@ -231,3 +231,25 @@ footer{
    color: #3B3F5C;
    padding-left: 5px;
 }
+
+.devPd{
+    padding-top: 20px;
+}
+.dev{
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.dev:hover {
+    animation: floatAnimation 0.3s infinite alternate ease;
+}
+
+@keyframes floatAnimation {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-3px);
+    }
+}
