@@ -40,17 +40,17 @@
   <div class="container">
     <div id="carousel" class="carousel slide " data-bs-ride="carousel">
       <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" aria-current="true"
+        <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"
           aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" class="active"
+        <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" 
           aria-label="Slide 2"></button>
       </div>
       <div class="carousel-inner">
-        <div class="carousel-item">
-          <a href="galeria.html"><img class="d-block w-100" src="assets/img/Banner1.png" width="100%"></a>
-        </div>
         <div class="carousel-item active">
-          <img src="assets/img/Design sem nome (5).png" width="100%">
+          <img src="assets/img/Design sem nome (5).png" width="100%">         </div>
+        <div class="carousel-item ">
+         <a href="galeria.html"><img class="d-block w-100" src="assets/img/Banner1.png" width="100%"></a>
+
         </div>
       </div>
       <button class="carousel-control-prev marg" type="button" data-bs-target="#carousel" data-bs-slide="prev">
@@ -77,6 +77,7 @@
   </div>
 
   <div class="container marg1">
+    <h6 class="corTitulos" style="font-size: 30px;">Confira:</h6>
     <div class="row row-cols-1 row-cols-md-3 g-3">
       <div class="col">
         <div class="card h-100">
@@ -91,12 +92,51 @@
     </div>
   </div>
 
-  <div class="container row mapa">
-    <iframe
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4564.002215350421!2d-48.032750540170774!3d-15.864316185163876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a2d97a15b0507%3A0x3c3e4472ee75d834!2sUniversidade%20Cat%C3%B3lica%20de%20Bras%C3%ADlia%20-%20C%C3%A2mpus%20Taguatinga!5e0!3m2!1spt-BR!2sbr!4v1708089540209!5m2!1spt-BR!2sbr"
-      width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-      referrerpolicy="no-referrer-when-downgrade"></iframe>
-  </div>
+  <section class="pubSec">
+    <div></div>
+    <div class="container marg7 endInd">
+      <h3 class="corTitulos">Últimas publicações</h3>
+      <div class="container px-4 py-3 ">
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4">
+          <div class="col">
+            <div class="cardPub">
+              <a href="publicacoes/INFLUENCIA_DOS_JOGOS_E_BRINCADEIRAS_ATIVOS_NA_COGNIÇÃO_CRIANÇAS.html">
+                <img src="publicacoes/capas/capaNm.png"
+                  alt="INFLUÊNCIA DOS JOGOS E BRINCADEIRAS ATIVOS NA COGNIÇÃO DE CRIANÇAS: UMA REVISÃO SISTEMÁTICA">
+                <div class="overlay">
+                  <h2 class="container text-center">INFLUÊNCIA DOS JOGOS E BRINCADEIRAS ATIVOS NA COGNIÇÃO DE CRIANÇAS:
+                    UMA REVISÃO SISTEMÁTICA</h2>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="cardPub">
+              <a href="publicacoes/EFEITOS_DE_BRINCADEIRAS_ATIVAS.html">
+                <img src="publicacoes/capas/EFEITOS DE BRINCADEIRAS ATIVAS SOBRE O .png" alt="Imagem de Exemplo">
+                <div class="overlay">
+                  <h2 class="container text-center">EFEITOS DE BRINCADEIRAS ATIVAS SOBRE O DESEMPENHO NO XADREZ E EM TESTE
+                    COGNITIVO MATEMÁTICO EM ESCOLARES.
+                  </h2>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="cardPub">
+              <a href="publicacoes/GRUPO_DE_PESQUISA_EM_NEUROCIENCIA_DO_MOVIMENTO_CONTROLE_INIBITORIO_DE_ESTUDANTES_ATLETAS.html">
+                <img src="publicacoes/capas/controle_inibitorio_de_estudantes_atletas.png" alt="GRUPO DE PESQUISA EM NEUROCIÊNCIA DO MOVIMENTO: CONTROLE INIBITÓRIO DE ESTUDANTES ATLETAS">
+                <div class="overlay">
+                  <h2 class="container text-center">GRUPO DE PESQUISA EM NEUROCIÊNCIA DO MOVIMENTO: CONTROLE INIBITÓRIO DE
+                    ESTUDANTES ATLETAS
+                  </h2>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
 
   <footer>
@@ -139,8 +179,7 @@
       </div>
     </div>
   </footer>
-
-
+</section>
   <!--Bootstrap-->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
