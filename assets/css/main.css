@@ -26,11 +26,15 @@ nav{
 .titulonav{
     padding-left: 10px;
     color: #F0F0F0;
+    margin-top: 10px;  
+
 }
 
  header h5{
     color: #CFCFCF;
     padding-left: 15px;
+    margin-top: 20px;  
+
 }
 
 
@@ -50,7 +54,7 @@ nav{
     justify-content: center;
     align-items: center;
     margin: auto;
-    padding-top: 180px;
+    padding-top: 140px;
 }
 
 .corTitulos{
@@ -61,6 +65,7 @@ nav{
     font-weight: 400;
     line-height: normal;
 }
+
 
 
 .marg{
@@ -112,7 +117,7 @@ footer{
 }
 
 .marg3{ /*Titulos*/
-    padding-top: 200px;
+    padding-top: 150px;
 }
 
 .marg5{
@@ -233,7 +238,8 @@ footer{
 }
 
 .devPd{
-    padding-top: 20px;
+    padding-top: 70px;
+    padding-bottom: 15px;
 }
 .dev{
     cursor: pointer;
