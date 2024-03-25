@@ -333,3 +333,31 @@ footer {
     margin-top: 40px;
     margin-bottom: 50px;
 }
+
+/* participantes */
+
+.cardNome{
+    color: #3B3F5C;
+    font-size: 30px;
+}
+
+.cardCurso{
+    color: #8A8DA1;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.cardEmail{
+    padding-top: 10px;
+    color: #959595;
+    font-size: 22px;
+    font-weight: 200;
+}
+
+.cardFormacao{
+    padding-top: 1px;
+    padding-bottom: 10px;
+    color: #6D6D6D;
+    font-size: 22px;
+    font-weight: 300;
+}
