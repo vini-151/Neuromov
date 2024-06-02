@@ -1,26 +1,101 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@800&family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 body{
     background-color: #F6F6F6;
-    font-family: 'Nunito', sans-serif;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 header{
     background-color: #7F4BC1;
     width: 100%;
+    height: 100%;
 }
 
-nav{
-   background-color: #9880b8;
-   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+.headerTitle{
+    display: flex;
+    flex-direction: row;
+    color: #f0f0f0;
+    margin-left: 0.5em;
+}
+
+.tituloHeadTxt{
+    padding-left: 2%;
+    font-family: 'K2D';
+}
+
+.icone{
+    width: 80px;
+}
+
+.navbar-collapse{
+    background-color: #7F4BC1;
+
+}
+
+.navbar-nav{
+    align-items: normal;
+}
+
+.collapse{
+    align-self: end;
+}
+
+header nav{
+
+    font-weight: bold;
+    background-color: #7F4BC1;
+    
 } 
+
+.pdHead{
+    padding-bottom: 7px;
+}
+
+.show{
+    border-radius: 10px;
+
+    justify-content: flex-start;
+}
+
+.navbar-toggler-icon{
+    width: 70%;
+    background-color: #f0f0f0;
+    width: 45px;
+    height: 45px;
+    margin: 10px;
+    border-radius: 10px;
+    
+}
+
+.navbar-toggler{
+    border-color: transparent;
+
+}
+
+.mainLi{
+    color: #764F88;
+    box-sizing:border-box;
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin-left: 0px;
+    padding-bottom: -20px;
+    margin-top: 0px;
+    
+}
+
+.titleHead{
+    margin-left: 70px;
+}
+
+
 
 .cabFix{
     position: fixed;
     width: 100%;
     z-index: 7;
+    height: 100px;
 }
 
 .titulonav{
@@ -34,7 +109,6 @@ nav{
     color: #CFCFCF;
     padding-left: 15px;
     margin-top: 20px;  
-
 }
 
 
@@ -54,7 +128,7 @@ nav{
     justify-content: center;
     align-items: center;
     margin: auto;
-    padding-top: 140px;
+    padding-top: 110px;
 }
 
 .corTitulos{
@@ -66,7 +140,15 @@ nav{
     line-height: normal;
 }
 
+nav{
+    display: flex;
+    flex-direction: row;
+    column-gap: 40px;
+}
 
+li{
+    list-style-type: none;
+}
 
 .marg{
     padding-top: 176px;
@@ -360,4 +442,78 @@ footer {
     color: #6D6D6D;
     font-size: 22px;
     font-weight: 300;
+}
+
+.fotoParticipantes{
+    height: auto;
+    /* width: 100%; */
+    /* overflow: hidden; */
+
+}
+
+/* Card de participantes */
+
+.cardPart {
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    background-color: #F0F0F0;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.nomeParticipante h5{ 
+    font-weight:600;
+    color:#35184B;
+}.nomeParticipante h6{ 
+    font-weight: 550;
+    color:#6b6b70;
+}
+
+.descritivosParticipante{ /*nele é inserido as informações de: graduação, iniciação científica, mestrado, doutorado. e também o e-mail*/
+    width: fit-content;
+}
+
+.descritivosParticipante h5{
+    font-weight: 600;
+    color: #764F88;
+}
+
+.descritivosParticipante h6{
+    font-weight: 550;
+    color: #764F88;
+}
+
+.botoesCV button{
+    border-radius: 100px;
+    align-items: baseline;
+}
+
+.ptBtn1{
+    color: #764F88;
+    background-color: #f0f0f0;
+    border-color: #764F88;
+    --bs-btn-hover-bg:#35184B;
+    --bs-btn-hover-border-color: var(--bs-btn-hover-bg);
+    
+}
+
+.ptBtn2{
+    color:#f0f0f0;
+    background-color: #764F88;
+    border-color: #764F88;
+    --bs-btn-hover-bg:#35184B;
+    --bs-btn-hover-border-color: var(--bs-btn-hover-bg);
+    
+}
+
+.descricaoParticipante {
+    text-indent: 0px;
+    text-align: justify;
+    text-decoration: none;
+    letter-spacing: normal;
+    word-wrap: break-word;
+    word-spacing: 3px;
+    word-break: break-all = | (pt-br);
 }
