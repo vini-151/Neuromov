@@ -508,12 +508,3 @@ footer {
     
 }
 
-.descricaoParticipante {
-    text-indent: 0px;
-    text-align: justify;
-    text-decoration: none;
-    letter-spacing: normal;
-    word-wrap: break-word;
-    word-spacing: 3px;
-    word-break: break-all = | (pt-br);
-}
