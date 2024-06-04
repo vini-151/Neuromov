@@ -118,12 +118,8 @@ header nav{
     height: 70px;
 }
 
-.carousel{
-    border-radius: 30px;
-}
-
 #carousel{
-    width: 88%;
+    width: 100%;
     position:relative;
     justify-content: center;
     align-items: center;
@@ -160,6 +156,7 @@ li{
 
 .card{
     overflow: hidden;
+    border-radius: 20px;
 }
 
 .endInd{
@@ -221,6 +218,11 @@ footer{
 .card{
     border-width: 0px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
 }
 
 
