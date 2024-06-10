@@ -70,13 +70,14 @@ header nav{
     width: 45px;
     height: 45px;
     margin: 10px;
-    border-radius: 10px;
     
 }
 
-.navbar-toggler{
-    border-color: transparent;
-
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
 }
 
 .mainLi{
